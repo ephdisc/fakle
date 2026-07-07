@@ -8,10 +8,10 @@ This repository is a self-contained Claude Code **marketplace** hosting a single
 
 Point Claude Code at this marketplace, then install the plugin:
 
-**From GitHub** (after you push this repo):
+**From GitHub:**
 
 ```bash
-claude plugin marketplace add <your-org>/<this-repo> && claude plugin install verify-loop@verify-loop
+claude plugin marketplace add ephdisc/fakle && claude plugin install verify-loop@verify-loop
 ```
 
 **From a local clone / shared drive:**
