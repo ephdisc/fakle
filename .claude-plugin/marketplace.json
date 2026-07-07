@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "verify-loop",
+  "description": "Marketplace hosting the verify-loop plugin, which nudges Claude to verify its own work before finishing a turn.",
+  "owner": {
+    "name": "Chris",
+    "email": "ephdisc@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "verify-loop",
+      "source": "./plugins/verify-loop",
+      "category": "workflow",
+      "description": "Enforces a verify-before-finish routine: tracks code edits, watches for tests/runs that exercise them, and blocks ending a turn on unverified changes."
+    }
+  ]
+}

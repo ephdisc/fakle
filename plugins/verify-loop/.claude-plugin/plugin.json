@@ -1,0 +1,11 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "verify-loop",
+  "version": "1.0.0",
+  "description": "Nudges Claude to verify its own work. Tracks code edits, records when tests/runs exercise them, and blocks ending a turn on code changes that were never exercised — so verification isn't silently handed back to the user.",
+  "author": {
+    "name": "Chris",
+    "email": "ephdisc@gmail.com"
+  },
+  "keywords": ["verification", "hooks", "workflow", "testing", "quality"]
+}
